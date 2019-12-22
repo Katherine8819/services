@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url(../fonts/proxima-nova/regular.eot);
+  src: url(../fonts/proxima-nova/regular.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/proxima-nova/regular.woff) format("woff"),
+    url(../fonts/proxima-nova/regular.woff2) format("woff2"),
+    url(../fonts/proxima-nova/regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  transition: all 0.1s ease-in;
+}
+
+p,
+h3 {
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.25px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  margin: 260px auto;
+  max-width: 1000px;
+}
+
+div {
+  text-align: center;
+  margin: 0px 35px 0px 35px;
+  flex-basis: 33%;
+}
+
+a.settings {
+  background: url(../image/settings.png);
+  display: block;
+  width: 65px;
+  height: 63px;
+}
+
+a.settings:hover {
+  background: url(../image/settings_2.png);
+}
+
+a.dashboard {
+  background: url(../image/dashboard.png);
+  display: block;
+  width: 65px;
+  height: 63px;
+}
+
+a.dashboard:hover {
+  background: url(../image/dashboard_2.png);
+}
+
+a.tablet {
+  background: url(../image/tablet.png);
+  display: block;
+  width: 65px;
+  height: 63px;
+}
+
+a.tablet:hover {
+  background: url(../image/tablet_2.png);
+}
